@@ -26,6 +26,7 @@ to verify =
 >>docker ps -a
 
 docker run -d --name my_nginx -p 8081:80 nginx:latest
+got to docker or just click the below link
 http://localhost:8081
 
 
