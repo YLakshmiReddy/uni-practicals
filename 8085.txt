@@ -1,0 +1,58 @@
+docker commands
+
+
+Docker file(no extension for this file) content and name it as Dockerfile
+FROM python:3.12.4-slim
+WORKDIR /app
+COPY first.py /app/
+CMD ["python", "first.py"]
+
+
+create a python file called first.py
+keep your Docker file and python file in a folder and name it as Docker
+
+open the Docker file and type cmd in the path (it will visible in the above as like a search bar)
+
+do this in command prompt :
+to build image = docker build -t pythonversion-image name(you can give any name for image)
+>>docker build -t python3124-trial .
+>>docker run python3124-trial
+>>docker login
+to create tag = (lakshmireddy269 is my user name for docker desktop u have to create your own)
+>>docker tag python3124-trial lakshmireddy269/python3124-trial
+to push = 
+>>docker push lakshmireddy269/python3124-trial
+to verify = 
+>>docker ps -a
+
+docker run -d --name my_nginx -p 8081:80 nginx:latest
+http://localhost:8081
+
+
+https://github.com/nishanttotla/DockerStaticSite.git
+
+
+git hub commands
+
+git clone url
+cd repository
+git add filename
+git commit -m "reference"
+git push
+git checkout -b branch name
+
+for merge
+after new branch creating
+
+git checkout main 
+git merge new branchname
+git pull origin main 
+git push origin main
+
+
+https://www.figma.com/proto/dyWamZ04o2HE8VKpRSJUNH/E-Commerce-App-Design-(Community)?node-id=2-2174&t=GBT9CFW6ue0bdoqY-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1
+
+
+
+https://www.figma.com/proto/831PUXICOjyqAFTletvG5M/Bus-Booking-(Community)?node-id=1-2&p=f&t=R4EKXsM5Jg5ipTAW-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=10%3A66
+
