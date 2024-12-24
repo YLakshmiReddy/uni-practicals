@@ -30,7 +30,8 @@ http://localhost:8081
 
 
 https://github.com/nishanttotla/DockerStaticSite.git
-
+docker build -t staticwebsite .
+docker run staticwebsite
 
 git hub commands
 
